@@ -1,0 +1,27 @@
+{
+  "name": "smart-cli-tool",
+  "version": "1.0.0",
+  "description": "一个用于快速创建模版项目的脚手架工具",
+  "preferGlobal": true,
+  "main": "bin/smart",
+  "scripts": {
+    "start": "",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "smart": "bin/smart"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^2.20.3",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.0",
+    "ora": "^4.0.4"
+  },
+  "engines": {
+    "node": ">= 7.0"
+  }
+}
